@@ -1,0 +1,6 @@
+[user]
+    name = Tsvetoslav Dimov
+    email = baskski@gmail.com
+
+[includeIf "gitdir:~/repos-work/"]
+    path = ~/repos-work/.gitconfig
