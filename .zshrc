@@ -9,4 +9,4 @@ source $ZSH/oh-my-zsh.sh
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source <(fzf --zsh)
 export EDITOR=vim VISUAL=vim
-alias dot='/usr/bin/git --git-dir=$HOME/.dot/ --work-tree=$HOME'
+alias dot='git --git-dir=$HOME/.dot/ --work-tree=$HOME'

@@ -2,5 +2,8 @@
     name = Tsvetoslav Dimov
     email = baskski@gmail.com
 
+[url "github-personal"]
+    insteadOf = git@github.com
+
 [includeIf "gitdir:~/repos-work/"]
     path = ~/repos-work/.gitconfig
