@@ -34,3 +34,9 @@ git clone --bare git@github.com:cecobask/dot.git "$HOME/.dot"
 alias dot='git --git-dir=$HOME/.dot/ --work-tree=$HOME'
 dot checkout
 dot config --local status.showUntrackedFiles no
+
+bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/HEAD/binscripts/gvm-installer)
+# shellcheck source=/dev/null
+source "$HOME/.gvm/scripts/gvm"
+gvm install go1.23.2 -B
+gvm use go1.23.2 --default
