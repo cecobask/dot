@@ -1,6 +1,9 @@
 brew "fzf"
 brew "git"
+brew "helm"
 brew "jq"
-brew "shfmt"
-brew "mercurial"
 brew "kubectl"
+brew "mercurial"
+brew "shfmt"
+
+cask "karabiner-elements"
