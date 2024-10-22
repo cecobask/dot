@@ -3,5 +3,5 @@ My personal dotfiles. Followed the approach described here: [Dotfiles: Best way 
 
 ## Usage
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/cecobask/dot/refs/heads/main/bootstrap.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/cecobask/dot/refs/heads/main/scripts/bootstrap.sh)"
 ```

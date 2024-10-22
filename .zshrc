@@ -14,3 +14,4 @@ source <(fzf --zsh)
 export EDITOR=vim VISUAL=vim
 alias dot='git --git-dir=$HOME/.dot/ --work-tree=$HOME'
 [[ -s "/Users/tdimov/.gvm/scripts/gvm" ]] && source "/Users/tdimov/.gvm/scripts/gvm"
+export PATH="$PATH:$HOME/scripts/jetbrains"
