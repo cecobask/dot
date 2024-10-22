@@ -2,6 +2,9 @@
     name = Tsvetoslav Dimov
     email = baskski@gmail.com
 
+[core]
+    excludesFile = ~/.gitignore
+
 [url "github-personal"]
     insteadOf = git@github.com
 
