@@ -7,6 +7,7 @@ brew "kubectl"
 brew "kubectx"
 brew "mercurial"
 brew "shfmt"
+brew "vim"
 brew "yarn"
 
 cask "karabiner-elements"
