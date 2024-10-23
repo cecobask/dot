@@ -40,3 +40,12 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/HEAD/binscr
 source "$HOME/.gvm/scripts/gvm"
 gvm install go1.23.2 -B
 gvm use go1.23.2 --default
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/HEAD/install.sh | bash
+# shellcheck source=/dev/null
+source "$HOME/.nvm/nvm.sh"
+nvm install v18.20.4
+nvm use v18.20.4
+
+pyenv install 3.13.0
+pyenv global 3.13.0
