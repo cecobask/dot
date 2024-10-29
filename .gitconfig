@@ -5,6 +5,9 @@
 [core]
     excludesFile = ~/.gitignore
 
+[pull]
+    rebase = true
+
 [url "github-personal"]
     insteadOf = git@github.com
 

@@ -17,5 +17,7 @@ brew "xz"
 brew "zlib"
 
 cask "karabiner-elements"
+cask "postman"
+cask "visual-studio-code"
 
 tap "derailed/k9s"
