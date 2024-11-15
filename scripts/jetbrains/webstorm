@@ -16,4 +16,4 @@ for o in "$@"; do
   fi
 done
 
-open -na "/Users/tdimov/Applications/GoLand.app/Contents/MacOS/goland" $wait --args "${intellij_args[@]}"
+open -na "/Users/tdimov/Applications/WebStorm.app/Contents/MacOS/webstorm" $wait --args "${intellij_args[@]}"
