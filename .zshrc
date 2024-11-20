@@ -14,6 +14,7 @@ export EDITOR=vim VISUAL=vim
 alias dot='git --git-dir=$HOME/.dot/ --work-tree=$HOME'
 [[ -s "/Users/tdimov/.gvm/scripts/gvm" ]] && source "/Users/tdimov/.gvm/scripts/gvm"
 export PATH="$PATH:$HOME/scripts/jetbrains"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
