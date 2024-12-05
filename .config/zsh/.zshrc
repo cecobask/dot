@@ -1,4 +1,4 @@
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$ZDOTDIR/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode reminder
 zstyle ':omz:update' frequency 28
@@ -24,6 +24,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-export K9S_CONFIG_DIR="$HOME/.k9s"
+export K9S_CONFIG_DIR="$XDG_CONFIG_HOME/k9s"
 
 alias docker='podman'
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
