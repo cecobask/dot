@@ -26,6 +26,4 @@ eval "$(pyenv init -)"
 
 export K9S_CONFIG_DIR="$XDG_CONFIG_HOME/k9s"
 
-export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
-
 export PATH="$PATH:$HOME/.rd/bin"
