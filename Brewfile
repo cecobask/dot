@@ -2,6 +2,7 @@ tap "derailed/k9s"
 tap "siderolabs/tap"
 tap "azure/kubelogin"
 
+brew "argocd"
 brew "awscli"
 brew "coreutils"
 brew "derailed/k9s/k9s"
