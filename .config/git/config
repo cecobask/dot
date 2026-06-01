@@ -1,7 +1,10 @@
 [user]
+email = baskski@gmail.com
 name = Tsvetoslav Dimov
+signingkey = ~/.ssh/id_ed25519.pub
 
 [commit]
+gpgsign = true
 template = ~/.config/git/message
 
 [core]
@@ -13,8 +16,5 @@ defaultBranch = main
 [pull]
 rebase = true
 
-[includeIf "gitdir:~/"]
-path = ~/.config/git/config-personal
-
-[includeIf "gitdir:~/repos-work/"]
-path = ~/.config/git/config-work
+[gpg]
+format = ssh
