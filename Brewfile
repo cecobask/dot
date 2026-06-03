@@ -27,7 +27,6 @@ brew "vim"
 brew "wget"
 brew "yq"
 
-cask "hiddenbar"
 cask "karabiner-elements"
 cask "logi-options+"
 cask "monitorcontrol"
