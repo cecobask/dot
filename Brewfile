@@ -41,4 +41,6 @@ mas "WireGuard", id: 1451685025
 vscode "eamodio.gitlens"
 vscode "golang.go"
 vscode "hashicorp.terraform"
+vscode "kennylong.kubernetes-yaml-formatter"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
 
