@@ -27,6 +27,7 @@ brew "vim"
 brew "wget"
 brew "yq"
 
+cask "bruno"
 cask "karabiner-elements"
 cask "logi-options+"
 cask "monitorcontrol"
@@ -36,4 +37,8 @@ cask "visual-studio-code"
 
 mas "Bitwarden", id: 1352778147
 mas "WireGuard", id: 1451685025
+
+vscode "eamodio.gitlens"
+vscode "golang.go"
+vscode "hashicorp.terraform"
 
