@@ -10,7 +10,7 @@ else
 	echo "skipped installing brew as it already exists"
 fi
 
-curl -fsSL https://raw.githubusercontent.com/cecobask/dot/refs/heads/main/Brewfile | brew bundle install --file=-
+curl -fsSL https://raw.githubusercontent.com/cecobask/dot/HEAD/.config/homebrew/Brewfile | brew bundle install --file=-
 
 SSH_PRIVATE_KEY="$HOME/.ssh/id_ed25519"
 if [[ ! -f "$SSH_PRIVATE_KEY" ]]; then
