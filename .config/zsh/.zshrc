@@ -10,10 +10,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 source <(fzf --zsh)
 export EDITOR=vim VISUAL=vim
 alias dot='git --git-dir=$HOME/.dot/ --work-tree=$HOME'
-[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
 export K9S_CONFIG_DIR="$XDG_CONFIG_HOME/k9s"
 
 eval "$(direnv hook zsh)"
+
