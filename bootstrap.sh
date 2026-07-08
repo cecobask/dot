@@ -40,9 +40,8 @@ if [[ ! -d "$DOT_DIR" ]]; then
 else
 	echo "skipped cloning dot repo as it already exists"
 fi
-alias dot='git --git-dir=$DOT_DIR --work-tree=$HOME'
-dot checkout
-dot config --local status.showUntrackedFiles no
+git --git-dir="$DOT_DIR" --work-tree="$HOME" checkout
+git --git-dir="$DOT_DIR" --work-tree="$HOME" config --local status.showUntrackedFiles no
 
 if ! command -v omz >/dev/null 2>&1; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" --unattended --keep-zshrc
