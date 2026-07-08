@@ -3,7 +3,6 @@ tap "fluxcd/tap", trusted: true
 tap "siderolabs/tap", trusted: true
 tap "terraform-linters/tap", trusted: true
 
-brew "argocd"
 brew "awscli"
 brew "b2-tools"
 brew "coreutils"
