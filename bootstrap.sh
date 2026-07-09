@@ -45,7 +45,10 @@ git --git-dir="$DOT_DIR" --work-tree="$HOME" config --local status.showUntracked
 exec zsh
 
 if ! command -v omz >/dev/null 2>&1; then
-	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" --unattended --keep-zshrc
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" \
+		--skip-chsh \
+		--unattended \
+		--keep-zshrc
 else
 	echo "skipped installing omz as it already exists"
 fi
