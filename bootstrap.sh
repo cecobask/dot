@@ -6,7 +6,7 @@ set -u
 
 if ! command -v brew >/dev/null 2>&1; then
 	bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	exec zsh -l
+	eval "$(/opt/homebrew/bin/brew shellenv)"
 else
 	echo "skipped installing brew as it already exists"
 fi
@@ -43,11 +43,11 @@ else
 fi
 git --git-dir="$DOT_DIR" --work-tree="$HOME" checkout
 git --git-dir="$DOT_DIR" --work-tree="$HOME" config --local status.showUntrackedFiles no
-exec zsh -l
+# shellcheck disable=SC1091
+source "$HOME/.zshenv"
 
 if ! command -v omz >/dev/null 2>&1; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)" "" \
-		--skip-chsh \
 		--unattended \
 		--keep-zshrc
 else
