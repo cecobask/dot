@@ -1,14 +1,16 @@
 tap "derailed/k9s", trusted: true
 tap "fluxcd/tap", trusted: true
+tap "home-operations/tap", trusted: true
+tap "libkrun/krun", trusted: true
 tap "siderolabs/tap", trusted: true
 tap "terraform-linters/tap", trusted: true
 
 brew "awscli"
 brew "b2-tools"
 brew "coreutils"
-brew "k9s"
+brew "derailed/k9s/k9s"
 brew "direnv"
-brew "flux"
+brew "fluxcd/tap/flux"
 brew "fzf"
 brew "gh"
 brew "git"
@@ -20,6 +22,7 @@ brew "kopia"
 brew "kubectl"
 brew "kubectx"
 brew "kustomize"
+brew "libkrun/krun/krunkit"
 brew "make"
 brew "mas"
 brew "podman"
@@ -27,7 +30,7 @@ brew "rclone"
 brew "readline"
 brew "shellcheck"
 brew "shfmt"
-brew "talosctl"
+brew "siderolabs/tap/talosctl"
 brew "tfenv"
 brew "tree"
 brew "velero"
@@ -36,15 +39,19 @@ brew "wget"
 brew "yq"
 
 cask "bruno"
+cask "ghostty"
 cask "google-chrome"
+cask "home-operations/tap/flate"
 cask "karabiner-elements"
 cask "kopiaui"
 cask "logi-options+"
 cask "monitorcontrol"
 cask "podman-desktop"
 cask "raycast"
+cask "terraform-linters/tap/tflint"
 cask "tflint"
 cask "visual-studio-code"
+cask "whatsapp"
 
 mas "Bitwarden", id: 1352778147
 mas "WireGuard", id: 1451685025
